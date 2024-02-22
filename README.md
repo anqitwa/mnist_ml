@@ -18,5 +18,6 @@ export MNIST_ML_ROOT=$PWD
 
 ## Dataset
 The algorithms are designed to work with the MNIST database of handwritten digits. For detailed information about the dataset, refer to the official [MNIST website](http://yann.lecun.com/exdb/mnist/)
+
 **Note:** Please ensure that you access the provided link using HTTP (not HTTPS) to avoid getting the log-in prompt.
 
