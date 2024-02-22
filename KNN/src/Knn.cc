@@ -129,7 +129,7 @@ double Knn::testPerformance() {
 int main() {
   DataHandler *dh = new DataHandler();
   dh->readFeatureVector("../dataset/train-images-idx3-ubyte");
-  dh->readFeatureLabels("../datset/train-labels-idx1-ubyte");
+  dh->readFeatureLabels("../dataset/train-labels-idx1-ubyte");
   dh->splitData();
   dh->countClasses();
   Knn *knearest = new Knn();

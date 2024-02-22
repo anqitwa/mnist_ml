@@ -103,7 +103,7 @@ double Kmeans::test() {
 int main() {
   DataHandler *dh = new DataHandler();
   dh->readFeatureVector("../dataset/train-images-idx3-ubyte");
-  dh->readFeatureLabels("../datset/train-labels-idx1-ubyte");
+  dh->readFeatureLabels("../dataset/train-labels-idx1-ubyte");
   dh->splitData();
   dh->countClasses();
   double performance = 0.0, best_performance = 0.0;
