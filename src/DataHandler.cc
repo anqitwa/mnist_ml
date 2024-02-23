@@ -85,6 +85,7 @@ void DataHandler::readFeatureLabels(std::string path) {
       uint8_t elem[1];
       if (fread(elem, sizeof(elem), 1, f)) {
         dataArray->at(i)->setLabel(elem[0]);
+        // printf("%d\t",elem[0]);
       } else {
         printf("Error reading from the file.\n");
         exit(1);
